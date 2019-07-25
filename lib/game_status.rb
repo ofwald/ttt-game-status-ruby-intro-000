@@ -50,4 +50,11 @@ def over?(board)
     return false
   end
 end
+
+def winner?(board)
+  winner = win?(board)
+  if winner
+    return winner[0]
+  end
+end
 #draw?(board = ["O", "O", " ", "X", "X", "X", " ", " ", " "])
