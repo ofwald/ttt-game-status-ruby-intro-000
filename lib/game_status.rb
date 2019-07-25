@@ -33,7 +33,6 @@ def full?(board)
 end
 
 def draw?(board)
-  #binding.pry
   if ( !won?(board) && full?(board) )
     return true
   elsif ( !won?(board) && !full?(board) )
@@ -53,6 +52,7 @@ end
 
 def winner?(board)
   winner = won?(board)
+  binding.pry
   if winner
     return winner[0]
   else
