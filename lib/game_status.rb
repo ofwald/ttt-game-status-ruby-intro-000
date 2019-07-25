@@ -60,4 +60,4 @@ def winner?(board)
   end
 end
 
-puts winner?(board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]).is_a?
+puts winner?(board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"])
