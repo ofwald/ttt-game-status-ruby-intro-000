@@ -50,7 +50,7 @@ def over?(board)
   end
 end
 
-def winner?(board)
+def winner(board)
   winner = won?(board)
   #binding.pry
   if winner
@@ -60,4 +60,4 @@ def winner?(board)
   end
 end
 
-puts winner?(board = ["X", "O", " ", "X", "X", "X", " ", "O", "X"]) 
+
