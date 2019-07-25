@@ -59,4 +59,4 @@ def winner?(board)
     return false
   end
 end
-winner?(board = ["O", "O", " ", "X", "X", "X", " ", " ", " "])
+winner?(board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"])
