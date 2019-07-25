@@ -55,7 +55,7 @@ def winner?(board)
   winner = won?(board)
   if winner
     return winner[0]
-  else 
+  else
     return false
   end
 end
