@@ -52,7 +52,7 @@ def over?(board)
 end
 
 def winner?(board)
-  winner = win?(board)
+  winner = won?(board)
   if winner
     return winner[0]
   end
